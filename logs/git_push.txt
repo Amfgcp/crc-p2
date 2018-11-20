@@ -1,0 +1,20 @@
+Mudar nome do Ego vs SPL.. para TEST - Ego vs SPL Result Comparison
+------------ GIT
+
+checkout Get Nodes By Degree of Sep
+discard _old
+discard _withRandomGraph
+
+add logs/
+add TEST - Change datastr testing
+add Ego vs SPL
+add Get Nodes By Degree of SPL
+
+-m "Add shortest path length way of calculating ego network for each vertex
+
+Also:
+- add logs with the comparison of old (ego nets) vs. new (SPL) runs; taken from Ego vs SPL ipynb
+- add ipynb to test the new way (SPL) with a smaller graph ('TEST - SPL and Change Datastructure' file)
+- add generation of randomly distributed infected in the old (ego) way of computation, along with methods
+to calculate propensity
+"
