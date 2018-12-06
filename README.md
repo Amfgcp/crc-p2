@@ -28,3 +28,12 @@ The folder logs contains the results we obtained from running the algorithms wit
   - `charts_results_files`, which contains the propensities for each algorithm with different settings, among other measures such as the average degree and clustering coefficient
   - `processed_data` contains the maximum and minimum values obtained from `charts_results_files` used in the report
   - `ba_5000_nodes_6_avgdg_results` is the results for one iteration of the algorithm using BA with 5000 with 6 average degree, in order to verify that the 2 degrees of separation seen in the same algorithm with only 1000 nodes might be due to node shortage
+
+# Required packages
+
+In order to be able to run our algorithms we recommend running Python 3 using Anaconda. The required packages needed for executing our code can be installed using the following commands through Anaconda Prompt:
+
+```sh
+pip install networkx
+pip install ndlib
+```
