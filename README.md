@@ -17,7 +17,7 @@ The paramethers for these algorithms can be checked on the NetworkX documentatio
 
 The remaining notebooks are merely steps we took before reaching the final product. Notable mentions are:
 
-  - `Get Nodes By Degree of Separation_old` contains the code we used before *all_pairs_shortest_path_length*, where we calculated the adjacent nodes by using ego-networks
+  - `Get Nodes By Degree of Separation_old` contains the code we used before *all_pairs_shortest_path_length*, where we calculated nodes at some network distance by using ego-networks
   - `Get Report Data`, the file we used to generate the data needed to support the report
   - `2000_nodes_scale_free`, a file we created using Python's Pickle package in order to save a graph for multiple usages
 
