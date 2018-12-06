@@ -5,7 +5,7 @@ This repository contains the second Complex Networks project code and results in
 The project is divided in two main folders, "notebooks" and "logs", containing the Jupyter notebooks and results we obtained from running the algorithms, respectively.
 
 # Notebooks
-This folder contains code for the algorithms used to support the report. The main file is *Get Nodes By Degree of Separation_SPL_random_SI* where we generate a graph using one of the three algorithms (BA, HK and WS). In order to change the graph generator remove the # from the desired algorithm and add one on the rest:
+This folder contains code for the algorithms used to support the report. The main file is ``Get Nodes By Degree of Separation_SPL_random_SI`` where we generate a graph using one of the three algorithms (BA, HK and WS). In order to change the graph generator remove the # from the desired algorithm and add one on the rest:
 
 ```python
 #G = nx.powerlaw_cluster_graph(NUM_NODES, 2, 1)
